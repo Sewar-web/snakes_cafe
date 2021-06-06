@@ -53,9 +53,12 @@ def snakes_cafe():
                 menu[order]+=1
                 print(f"** {menu[order]} order of {x} have been added to your meal **")
                 break
+            elif order=="quit":
+                break
         else:
             print("sorry this order not found in meal")
-                       
+   
+
  
 snakes_cafe()  
       
